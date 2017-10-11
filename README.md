@@ -27,4 +27,8 @@ depending on which version of the driver you installed:
 * C:\\Program Files\\Wasatch Photonics\\Wasatch.NET\\WasatchNET.dll
 * C:\\Program Files (x86)\\Wasatch Photonics\\Wasatch.NET\\WasatchNET.dll
 
+# Version History
+
+- 2017-10-11 Added detector temperature readout
+
 ![Panel View](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/screenshots/panel.png)
