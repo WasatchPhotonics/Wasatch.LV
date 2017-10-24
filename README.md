@@ -24,11 +24,12 @@ When you first open the WasatchDemo.vi, it may ask you to point it to the locati
 WasatchNET.dll on your system.  That will typically be one of the following two paths,
 depending on which version of the driver you installed:
 
-* C:\\Program Files\\Wasatch Photonics\\Wasatch.NET\\WasatchNET.dll
-* C:\\Program Files (x86)\\Wasatch Photonics\\Wasatch.NET\\WasatchNET.dll
+- C:\\Program Files\\Wasatch Photonics\\Wasatch.NET\\WasatchNET.dll
+- C:\\Program Files (x86)\\Wasatch Photonics\\Wasatch.NET\\WasatchNET.dll
 
 # Version History
 
+- 2017-10-24 Added TEC control with limits (tested w/Wasatch.NET 1.0.8)
 - 2017-10-11 Added detector temperature readout
 
 ![Panel View](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/screenshots/panel.png)
