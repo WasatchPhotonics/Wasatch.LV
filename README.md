@@ -6,7 +6,8 @@ LabVIEW demos and solutions using Wasatch Photonics spectrometers.
 
 # Dependencies
 
-The LabVIEW demo requires [Wasatch.NET](https://github.com/WasatchPhotonics/Wasatch.NET/).
+The LabVIEW demo requires [Wasatch.NET](https://github.com/WasatchPhotonics/Wasatch.NET/) 
+(specifically, version 1.0.11 or later).
 
 Please download and run either the 32-bit or 64-bit (see below) installer for Wasatch.NET
 and follow the driver installation process before attempting to run the WastachDemo.vi.
@@ -29,6 +30,7 @@ depending on which version of the driver you installed:
 
 # Version History
 
+- 2017-11-09 Updated setCCDTemperatureSetpointDegC (tested w/1.0.11)
 - 2017-10-24 Added TEC control with limits (tested w/Wasatch.NET 1.0.8)
 - 2017-10-11 Added detector temperature readout
 
