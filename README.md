@@ -28,8 +28,22 @@ depending on which version of the driver you installed:
 - C:\\Program Files\\Wasatch Photonics\\Wasatch.NET\\WasatchNET.dll
 - C:\\Program Files (x86)\\Wasatch Photonics\\Wasatch.NET\\WasatchNET.dll
 
+# Common Errors
+
+## No spectrometers found
+
+Make sure that after installing Wasatch.NET, you 
+[updated the device drivers](https://github.com/WasatchPhotonics/Wasatch.NET#post-install-step-1-libusb-drivers)
+for your spectrometers.
+
+## Error 1386 occured at Invoke Node: The specified .NET class is not available
+
+Most common reason for this seems to be trying to use a 64-bit version of 
+Wasatch.NET with a 32-bit version of LabVIEW, or vice-versa.
+
 # Version History
 
+- 2017-12-05 Added check for no spectrometers (tested w/1.0.13)
 - 2017-11-09 Updated setCCDTemperatureSetpointDegC (tested w/1.0.11)
 - 2017-10-24 Added TEC control with limits (tested w/Wasatch.NET 1.0.8)
 - 2017-10-11 Added detector temperature readout
