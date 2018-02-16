@@ -43,6 +43,7 @@ Wasatch.NET with a 32-bit version of LabVIEW, or vice-versa.
 
 # Version History
 
+- 2018-02-16 Added "Fire Laser" toggle; changed temperature from DBL to SGL
 - 2017-12-05 Added check for no spectrometers (tested w/1.0.13)
 - 2017-11-09 Updated setCCDTemperatureSetpointDegC (tested w/1.0.11)
 - 2017-10-24 Added TEC control with limits (tested w/Wasatch.NET 1.0.8)
