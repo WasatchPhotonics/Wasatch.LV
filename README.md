@@ -7,7 +7,7 @@ LabVIEW demos and solutions using Wasatch Photonics spectrometers.
 # Dependencies
 
 The LabVIEW demo requires [Wasatch.NET](https://github.com/WasatchPhotonics/Wasatch.NET/) 
-(specifically, version 1.0.11 or later).
+(at writing, version 1.0.14 or later).
 
 Please download and run either the 32-bit or 64-bit (see below) installer for Wasatch.NET
 and follow the driver installation process before attempting to run the WastachDemo.vi.
