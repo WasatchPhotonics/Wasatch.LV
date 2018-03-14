@@ -63,15 +63,19 @@ you only have to do this once per .vi, and can share the reference thereafter.
 
 ![navigate](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/screenshots/LV-08-dll.png)
 
-## Step 7: Select Driver
+## Step 7: Select the WasatchNET.Driver class
 
-Here you select the top-level object exposed by WasatchNET.dll that you wish to reference
-through the .NET Node.  The "Driver" object is specifically provided as a handle to get a
-reference to the Wasatch.NET Driver class.
+Here you select the top-level class exposed by WasatchNET.dll that you wish to reference
+through the .NET Node.  The Driver class is what we want: it's the starting point from which
+you can dig down into all the Wasatch.NET goodness.
+
+These are the API docs for the WasatchNET.Driver class which we'll be using:
+
+- [WasatchNET.Driver](http://www.wasatchphotonics.com/api/Wasatch.NET/class_wasatch_n_e_t_1_1_driver.html)
 
 ![driver](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/screenshots/LV-09-driver.png)
 
-## Step 8: Select getInstance() Static Method
+## Step 8: Select Driver.getInstance() Static Method
 
 To actually call the Driver class's getInstance() static method, you can select it from the
 "Method" drop-down.  Note that static methods are indicated with a leading [S].
