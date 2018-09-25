@@ -161,6 +161,7 @@ Wasatch.NET with a 32-bit version of LabVIEW, or vice-versa.
 
 # Version History
 
+- 2018-09-25 updated with external triggering (tested with Wasatch.NET 2.0.0 32-bit)
 - 2018-03-14 .vi tutorial to celebrate Pi Day
 - 2018-03-13 Tested against LabVIEW 2017 64-bit
 - 2018-02-16 Added "Fire Laser" toggle; changed temperature from DBL to SGL
