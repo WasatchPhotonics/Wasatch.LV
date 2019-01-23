@@ -7,7 +7,7 @@ LabVIEW demos and solutions using Wasatch Photonics spectrometers.
 # Dependencies
 
 The LabVIEW demo requires [Wasatch.NET](https://github.com/WasatchPhotonics/Wasatch.NET/) 
-(at writing, version 1.0.14 or later).
+(at writing, version 2.0.9 or later).
 
 Please download and run either the 32-bit or 64-bit (see below) installer for Wasatch.NET
 and follow the driver installation process before attempting to run the WastachDemo.vi.
@@ -148,6 +148,13 @@ drawing LabVIEW .vi block diagrams or writing code in C#, MATLAB or other .NET l
 
 # Common Errors
 
+## "an error occurred trying to load the assembly"
+
+Note that LabVIEW requires all DLL dependencies to be together in the same folder.
+Therefore, you should probably point to the WasatchNET.dll installed in 
+C:\Program Files (x86)\Wasatch Photonics\Wasatch.NET, which has all dependent DLLs
+grouped for convenience.
+
 ## No spectrometers found
 
 Make sure that after installing Wasatch.NET, you 
@@ -161,13 +168,24 @@ Wasatch.NET with a 32-bit version of LabVIEW, or vice-versa.
 
 # Version History
 
-- 2018-09-25 updated with external triggering (tested with Wasatch.NET 2.0.0 32-bit)
-- 2018-03-14 .vi tutorial to celebrate Pi Day
-- 2018-03-13 Tested against LabVIEW 2017 64-bit
-- 2018-02-16 Added "Fire Laser" toggle; changed temperature from DBL to SGL
-- 2017-12-05 Added check for no spectrometers (tested w/1.0.13)
-- 2017-11-09 Updated setCCDTemperatureSetpointDegC (tested w/1.0.11)
-- 2017-10-24 Added TEC control with limits (tested w/Wasatch.NET 1.0.8)
-- 2017-10-11 Added detector temperature readout
+- 2019-01-22 2.0.0
+    - updated to support events and recovery from missing final trigger
+    - tested against Wasatch.NET 2.0.9 (32-bit) on SiG and OEM-ARM
+- 2018-09-25 
+    - updated with external triggering (tested with Wasatch.NET 2.0.0 32-bit)
+- 2018-03-14 
+    - .vi tutorial to celebrate Pi Day
+- 2018-03-13 
+    - Tested against LabVIEW 2017 64-bit
+- 2018-02-16 
+    - Added "Fire Laser" toggle; changed temperature from DBL to SGL
+- 2017-12-05 
+    - Added check for no spectrometers (tested w/1.0.13)
+- 2017-11-09 
+    - Updated setCCDTemperatureSetpointDegC (tested w/1.0.11)
+- 2017-10-24 
+    - Added TEC control with limits (tested w/Wasatch.NET 1.0.8)
+- 2017-10-11 
+    - Added detector temperature readout
 
 ![Panel View](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/screenshots/panel.png)
