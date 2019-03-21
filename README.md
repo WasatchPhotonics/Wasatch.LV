@@ -10,7 +10,7 @@ The LabVIEW demo requires [Wasatch.NET](https://github.com/WasatchPhotonics/Wasa
 (at writing, version 2.0.9 or later).
 
 Please download and run either the 32-bit or 64-bit (see below) installer for Wasatch.NET
-and follow the driver installation process before attempting to run the WastachDemo.vi.
+and follow the driver installation process before attempting to run the WasatchDemo.vi.
 
 # Architecture (Bitness)
 
