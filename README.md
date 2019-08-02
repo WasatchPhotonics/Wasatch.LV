@@ -181,7 +181,7 @@ all the DLLs into that folder, and confirmed that it ran fine in that configurat
 
 I've posted a zipfile of the complete application folder here:
 
-    - https://github.com/WasatchPhotonics/Wasatch.LV/tree/master/bin
+- https://github.com/WasatchPhotonics/Wasatch.LV/tree/master/bin
 
 ![Version](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/screenshots/LV-AppBuilder-03.png)
 
