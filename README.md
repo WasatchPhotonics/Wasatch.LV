@@ -146,6 +146,45 @@ drawing LabVIEW .vi block diagrams or writing code in C#, MATLAB or other .NET l
 
 - http://www.wasatchphotonics.com/api/Wasatch.NET/annotated.html
 
+# Building an Executable
+
+I don't have a permanent license for LabVIEW Application Builder for regular testing,
+but I was able to compile an executable application (.exe) from our LabVIEWDemo.vi
+using a 30-day evaluation license for Application Builder 8.5.1 using this process.
+My .vi was saved from LabVIEW 2018 (32-bit).
+
+## Step 1: Build Executable
+
+First I naively used Application Builder to create an application from LabVIEWDemo.vi
+with no special settings, which by default it generated as “Application.exe”.
+  
+![Application.exe](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/screenshots/LV-AppBuilder-01.png)
+
+## Step 2: Copy DLL dependencies
+
+I tried running the generated Application.exe, and it reported "No spectrometers found," 
+as customers have reported.
+
+I then copied WasatchNET.dll, LibUsbDotNet.dll and libusb-1.0.dll into the same directory 
+as the Application.exe file.  (I’m not sure if all of those are required, but I thought 
+I’d give it the full set of potential dependencies.)
+
+I then re-ran the executable, and it was able to find my connected spectrometer and run 
+normally.
+
+![Dependencies](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/screenshots/LV-AppBuilder-02.png)
+
+I noted that the Application Builder automatically generated a "data" directory with a copy 
+of WasatchNET.dll, which it recognized as a dependency.  This suggested that the "data" 
+folder was already internally added to the application's DLL search path, so I tried moving 
+all the DLLs into that folder, and confirmed that it ran fine in that configuration as well.
+
+I've posted a zipfile of the complete application folder here:
+
+    - https://github.com/WasatchPhotonics/Wasatch.LV/tree/master/bin
+
+![Version](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/screenshots/LV-AppBuilder-03.png)
+
 # Common Errors
 
 ## "an error occurred trying to load the assembly"
