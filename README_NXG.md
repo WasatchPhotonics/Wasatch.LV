@@ -1,3 +1,5 @@
+![Diagram View](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/screenshots/NXG-diagram-editor.png)
+
 # Overview
 
 LabVIEW NXG support is developmental.  We were able to get Wasatch.NET 2.1.8 
@@ -44,3 +46,5 @@ NXG documentation appears to be developmental, but these were helpful.
 
 - https://ni.i.lithium.com/t5/image/serverpage/image-id/206152iD06D039E5CC7FDEB/image-size/original?v=1.0&px=-1
 - http://www.geekzilla.co.uk/ViewCE64BEF3-51A6-4F1C-90C9-6A76B015C9FB.htm
+
+![Panel View](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/screenshots/NXG-panel.png)
