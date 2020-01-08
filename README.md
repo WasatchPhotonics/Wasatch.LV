@@ -4,7 +4,7 @@
 
 LabVIEW demos and solutions using Wasatch Photonics spectrometers.
 
-For NXG instructions, see [README_NXG.md](NXG).
+For NXG instructions, see [NXG](NXG).
 
 # Dependencies
 
