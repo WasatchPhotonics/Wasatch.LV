@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="3592F9E482F34502655C71840402FBACCC9D03197DCB60F3FD8966D5CE47148C94C0DD4A682048D0F9E4DAB9F852039CAFF6DA5ABF89185809961183E9BBDD53" Timestamp="1D5C6511C2C739E" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType=":DotNet:WasatchNET.Logger, WasatchNET, Version=2.1.8.0, Culture=neutral, PublicKeyToken=8c107cdbda9b58c3" Id="1e8137cb58d4942bc9c9bc66e7ae1f7" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="6b68d6d67a3d4ee19453dbcc36a9e057" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="296beac9ba9d439a907a412e87c45b05" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="1c5c215e44174f7f95fa7d568b4b74e6" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType=":DotNet:WasatchNET.Logger, WasatchNET, Version=2.1.8.0, Culture=neutral, PublicKeyToken=8c107cdbda9b58c3" Id="cab721fd7cc14a4d8afa759cb3dccfc0" Name="OpaqueRefnum">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="f798c49d11ee46609f3eb7eb8190477d" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="a657d29644af4de692538b6cdff9e1df" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="9d8b18fa96a44ded9e62edcc53c82d55" Name="Logger.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="a0f5538d2fa2419f96b4b0fd5796dde0" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="7ce5fe3d3dcf4d4b8d26c4e64801fddc" xmlns="http://www.ni.com/MocCommon">
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="6c1b8d3533734bd693108f9b7e3e27a6" Label="[UIModel]bacd41ed3179499ca22e2189e0c99cde" Left="[float]100" RefnumType="[Type]:DotNet:WasatchNET.Logger, WasatchNET, Version=2.1.8.0, Culture=neutral, PublicKeyToken=8c107cdbda9b58c3" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=cab721fd7cc14a4d8afa759cb3dccfc0}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<Label Id="bacd41ed3179499ca22e2189e0c99cde" LabelOwner="[UIModel]6c1b8d3533734bd693108f9b7e3e27a6" Left="[float]100" Text="[string]OpaqueRefnum" Top="[float]80" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

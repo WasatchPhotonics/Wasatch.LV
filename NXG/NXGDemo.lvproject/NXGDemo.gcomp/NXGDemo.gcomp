@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="FA9A9BF1F5BCC6302DF4F3E2F7C9FE5D6695D1DF7D25D6CCF54BE1F23B61985554DD4E1CDA49B092789049F8EDC94EDBA209967C277B24FE2CD5D22E41237D17" Timestamp="1D5C6511B9C96C1" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Default" Id="672c047ad1374e84bc1daa49dade1c63" RootNamespaceId="6f4bf03969ff48fbaee2bcd6a11a9498" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="fd22e571b26540479970926ac55f58ed" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="abca67398f644d7ba4249f32f9db629d" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="8ec7e5494e0e4d8796a52a197c31ac08" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="aeb9381e60184c7abae4466d22f8cef2" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="b7627c5a326644e6830ab6505ce7a38d" Name="Default">
+			<CompilerSymbolTable Id="a30b4810439f4c21b440fd50f1f8f8c4" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="d6b209af739a4064a82b95bda4a12f5d" Exported="True" Id="2589d83371bd4b2d91bc2a76484778ad" />
+			<ComponentItemProperties AssociatedEnvoyId="7911fbfe3e2f4f16b703da615098cba9" Exported="True" Id="565d5d81a70e43d7b3d091a55d9e0d97" />
+			<ComponentItemProperties AssociatedEnvoyId="fafaaeefd1b44d23a3e11e60e95f047b" Exported="True" Id="a2a39f0be29f4f82bdc08286d70deec2" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="df4947db067d4f38aba6e688e7d13514" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="40094df10fa54b3db2c21ebcc35fb2b3" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="3b21c6cadb254e898694125923308e76" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="6f4bf03969ff48fbaee2bcd6a11a9498" Name="NXGDemo">
+				<SourceFileReference Id="d6b209af739a4064a82b95bda4a12f5d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="NXGDemo.gvi" StoragePath="NXGDemo.gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="7911fbfe3e2f4f16b703da615098cba9" ModelDefinitionType="{http://www.ni.com/LabVIEW.NativeBackEndCompiler}DotNetInterface" Name="WasatchNET.dni" StoragePath="WasatchNET.dni" />
+				<SourceFileReference Bindings="EnvoyManager" Id="fafaaeefd1b44d23a3e11e60e95f047b" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Logger.gtype" StoragePath="Logger.gtype\Logger.gtype" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="8a4a26379ce94f659e388396e8c84d68" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="NXGDemo.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="b7627c5a326644e6830ab6505ce7a38d" Id="9875c217009242efbccc9b31588482ee" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

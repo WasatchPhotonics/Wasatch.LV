@@ -4,6 +4,8 @@
 
 LabVIEW demos and solutions using Wasatch Photonics spectrometers.
 
+For NXG instructions, see [README_NXG.md](NXG).
+
 # Dependencies
 
 The LabVIEW demo requires [Wasatch.NET](https://github.com/WasatchPhotonics/Wasatch.NET/) 
@@ -14,7 +16,7 @@ and follow the driver installation process before attempting to run the WasatchD
 
 # Architecture (Bitness)
 
-This demo has been tested on LabVIEW 2017 32-bit under Windows 10 64-bit.  
+This demo has been tested on LabVIEW 2017 32-bit and LabVIEW 2018 64-bit.
 
 If you are using 32-bit LabVIEW (the typical case, even on 64-bit Windows),
 then you should install the 32-bit version of Wasatch.NET.
@@ -207,7 +209,9 @@ Wasatch.NET with a 32-bit version of LabVIEW, or vice-versa.
 
 # Version History
 
-- 2019-01-22 2.0.0
+- 2020-01-08 2.1
+    - added NXG
+- 2019-01-22 2.0
     - updated to support events and recovery from missing final trigger
     - tested against Wasatch.NET 2.0.9 (32-bit) on SiG and OEM-ARM
 - 2018-09-25 
