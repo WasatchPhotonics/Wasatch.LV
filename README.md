@@ -209,6 +209,8 @@ Wasatch.NET with a 32-bit version of LabVIEW, or vice-versa.
 
 # Version History
 
+- 2020-02-20 2.2
+    - retested from LabVIEW 2018 32-bit with Wasatch.NET 2.1.13
 - 2020-01-08 2.1
     - added NXG
 - 2019-01-22 2.0
