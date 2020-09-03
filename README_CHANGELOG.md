@@ -1,0 +1,29 @@
+# Version History
+
+- 2020-09-03 2.3
+    - retested from LabVIEW 2018 32-bit with Wasatch.NET 2.3.14
+    - updated getSpectrum() with False constant to forceNew
+    - added Changelog
+- 2020-02-20 2.2
+    - retested from LabVIEW 2018 32-bit with Wasatch.NET 2.1.13
+- 2020-01-08 2.1
+    - added NXG
+- 2019-01-22 2.0
+    - updated to support events and recovery from missing final trigger
+    - tested against Wasatch.NET 2.0.9 (32-bit) on SiG and OEM-ARM
+- 2018-09-25 
+    - updated with external triggering (tested with Wasatch.NET 2.0.0 32-bit)
+- 2018-03-14 
+    - .vi tutorial to celebrate Pi Day
+- 2018-03-13 
+    - Tested against LabVIEW 2017 64-bit
+- 2018-02-16 
+    - Added "Fire Laser" toggle; changed temperature from DBL to SGL
+- 2017-12-05 
+    - Added check for no spectrometers (tested w/1.0.13)
+- 2017-11-09 
+    - Updated setCCDTemperatureSetpointDegC (tested w/1.0.11)
+- 2017-10-24 
+    - Added TEC control with limits (tested w/Wasatch.NET 1.0.8)
+- 2017-10-11 
+    - Added detector temperature readout
