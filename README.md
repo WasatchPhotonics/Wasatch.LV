@@ -211,4 +211,8 @@ Wasatch.NET with a 32-bit version of LabVIEW, or vice-versa.
 
 - see [Changelog](README_CHANGELOG.md)
 
+# References
+
+- https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z000000PAR3SAO&l=en-US
+
 ![Panel View](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/screenshots/panel.png)
