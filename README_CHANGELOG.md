@@ -1,5 +1,7 @@
 # Version History
 
+- 2021-03-04 2.4
+    - retested from LabVIEW 2018 (18.0.1f4 32-bit) with Wasatch.NET 2.3.24
 - 2020-09-03 2.3
     - retested from LabVIEW 2018 32-bit with Wasatch.NET 2.3.14
     - updated getSpectrum() with False constant to forceNew
