@@ -207,6 +207,10 @@ for your spectrometers.
 Most common reason for this seems to be trying to use a 64-bit version of 
 Wasatch.NET with a 32-bit version of LabVIEW, or vice-versa.
 
+# FAQ
+
+- [Change x-axis from wavelengths to wavenumbers](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/FAQ/Graph X-axis.pdf)
+
 # Version History
 
 - see [Changelog](README_CHANGELOG.md)
