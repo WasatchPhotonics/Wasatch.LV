@@ -209,7 +209,7 @@ Wasatch.NET with a 32-bit version of LabVIEW, or vice-versa.
 
 # FAQ
 
-- [Change x-axis from wavelengths to wavenumbers](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/FAQ/Graph X-axis.pdf)
+- [Change x-axis from wavelengths to wavenumbers](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/FAQ/Graph%20X-axis.pdf)
 
 # Version History
 
