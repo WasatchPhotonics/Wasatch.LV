@@ -207,6 +207,25 @@ for your spectrometers.
 Most common reason for this seems to be trying to use a 64-bit version of 
 Wasatch.NET with a 32-bit version of LabVIEW, or vice-versa.
 
+## Error 1172 occured at Invoke Note: FileNotFoundException (LibUsbDotNet.dll, etc)
+
+WasatchNET.dll requires several other DLL dependencies.  Most of these are 
+normally installed automatically alongside WasatchNET.dll, typically in one
+of these two directories depending on which installer architecture you select:
+
+- C:\Program Files\Wasatch Photonics\Wasatch.NET
+- C:\Program Files (x86)\Wasatch Photonics\Wasatch.NET
+
+Some DLLs (including LibUsbDotNet.dll) are normally installed directly to 
+C:\Windows, which should work fine as that directory is always in the
+Windows executable search path (%PATH%).
+
+If you receive FileNotFoundExceptions, please confirm that Wasatch.NET has been
+installed via the binary installers.  Recent versions are typically available
+from here:
+
+- https://wasatchphotonics.com/binaries/drivers/Wasatch.NET
+
 # FAQ
 
 - [Change x-axis from wavelengths to wavenumbers](https://github.com/WasatchPhotonics/Wasatch.LV/raw/master/FAQ/Graph%20X-Axis.pdf)

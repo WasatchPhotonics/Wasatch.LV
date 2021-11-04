@@ -1,5 +1,7 @@
 # Version History
 
+- 2021-11-04 2.6
+    - re-tested with LabVIEW 2018 (18.0.1f4 32-bit) with Wasatch.NET 2.3.37 (AnyCPU)
 - 2021-06-07 2.5
     - added laserPowerSetpointMW
     - retested with Wasatch.NET 2.3.29
