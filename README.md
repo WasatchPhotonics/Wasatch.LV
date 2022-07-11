@@ -2,14 +2,31 @@
 
 # Overview
 
-LabVIEW demos and solutions using Wasatch Photonics spectrometers.
+This is a sample LabVIEW .vi which uses .NET to call into 
+[Wasatch.NET](https://github.com/WasatchPhotonics/Wasatch.NET/),
+Wasatch Photonics' primary open-source library for controlling spectrometers from
+Windows.
+
+As such, the API utilized by Wasatch.LV is that published by Wasatch.NET, which 
+can be reviewed at any of the following links:
+
+- [Rendered Doxygen](http://wasatchphotonics.com/api/Wasatch.NET/), e.g.:
+    - [WasatchNET.IDriver](https://wasatchphotonics.com/api/Wasatch.NET/interface_wasatch_n_e_t_1_1_i_driver.html) and [Driver](https://wasatchphotonics.com/api/Wasatch.NET/class_wasatch_n_e_t_1_1_driver.html)
+    - [WasatchNET.ISpectrometer](https://wasatchphotonics.com/api/Wasatch.NET/interface_wasatch_n_e_t_1_1_i_spectrometer.html) and [Spectrometer](https://wasatchphotonics.com/api/Wasatch.NET/class_wasatch_n_e_t_1_1_spectrometer.html)
+    - [WasatchNET.IEEPROM](https://wasatchphotonics.com/api/Wasatch.NET/interface_wasatch_n_e_t_1_1_i_e_e_p_r_o_m.html) and [EEPROM](https://wasatchphotonics.com/api/Wasatch.NET/class_wasatch_n_e_t_1_1_e_e_p_r_o_m.html)
+
+Note that Wasatch.NET itself is simply a C# wrapper over the spectrometers' USB 
+API, implemented in firmware and published in the following engineering specifications:
+
+- [ENG-0001 FID USB API](http://wasatchphotonics.com/eng-0001/)
+- [ENG-0034 EEPROM Specification](http://wasatchphotonics.com/eng-0034/)
 
 For NXG instructions, see [NXG](NXG).
 
 # Dependencies
 
 The LabVIEW demo requires [Wasatch.NET](https://github.com/WasatchPhotonics/Wasatch.NET/) 
-(at writing, version 2.3.14 or later).
+(2.3.14 or later recommended).
 
 Please download and run either the 32-bit or 64-bit (see below) installer for Wasatch.NET
 and follow the driver installation process before attempting to run the WasatchDemo.vi.
